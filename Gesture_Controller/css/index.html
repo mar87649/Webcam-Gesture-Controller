@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Import Google Icon Font-->
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <!--Import materialize.css-->
+       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+       <!--Let browser know website is optimized for mobile-->
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>image_classification</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+	<script src="https://unpkg.com/ml5@0.1.2/dist/ml5.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+	<script src="https://unpkg.com/ml5@0.1.1/dist/ml5.min.js"></script>
+	<script src="main.js"></script>
+  <!-- <script src="test.js"></script> -->
+	<script src="Directions.js"></script>
+	<script src="Tensorflow Stuff.js"></script>
+
+	<!-- <style>
+    img {
+      width: 240px;
+      display: inline;
+    }
+    #webcamPanel{
+      display: inline;
+    }
+  </style> -->
+
+</head>
+<body bgcolor="#FFFFFF">
+	<!--JavaScript at end of body for optimized loading-->
+       <script type="text/javascript" src="js/materialize.min.js"></script>
+
+<p id="timer"></p>
+<p id="counter"></p>
+
+<div class="row">
+
+         <div class="row">
+
+                 <div class="col s6 ">
+								   <div id="webcamPanel"></div>
+                        <script src="webcam.js"></script>
+                 </div>
+
+                 <div class="col s6 ">
+                   <div id="trainedPanel"></div>
+                      <script src="trainedImage.js"></script>
+                 </div>
+
+         </div>
+
+        <div class="row">
+
+                 <div class="col s6 ">
+                   <div id="wheelPanel"></div>
+                   <script src="dynamic wheel.js"></script>
+
+                 </div>
+
+                 <div class="col s6 ">
+                   <div id="trinedWheel"></div>
+                   <script src="trained wheel.js"></script>
+                 </div>
+
+         </div>
+
+</div>
+
+</body>
+
+</html>
