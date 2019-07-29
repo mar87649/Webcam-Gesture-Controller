@@ -1,4 +1,4 @@
-Webcam Gesture Controller
+# Webcam-Gesture-Controller
 
 Desctiption:
 Project can rotate picture of a steering wheel using webcam inputs that the user can record. 
